@@ -224,14 +224,16 @@ body {
 @media screen and (max-width: 800px) {
 	.card {
 		text-align: center;
+		height: 70vh;
 	}
 
 	.info {
+		font-size: 1rem;
 		padding-left: 0;
 	}
 
 	.info p {
-		display: none;
+		font-size: 1.1rem;
 	}
 
 	.info a {
@@ -338,6 +340,17 @@ h1 {
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
+}
+
+@media (max-width: 932px) {
+	.cols {
+		width: 100%;
+	}
+
+	.wrapper {
+
+		margin: 550px 0 0 0;
+	}
 }
 
 .col {

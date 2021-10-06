@@ -1,11 +1,11 @@
-$(function() {
+$(function () {
 
-	$(".prev").on('click', function(event) {
+	$(".prev").on('click', function (event) {
 		event.preventDefault();
 		prevSlide();
 	});
 
-	$(".next").on('click', function(event) {
+	$(".next").on('click', function (event) {
 		event.preventDefault();
 		nextSlide();
 	});
@@ -39,7 +39,7 @@ $(function() {
 
 		if (prev.index() !== $(".item").last().index()) {
 			$(".next").removeClass('hide-nav');
-		} 
+		}
 		if (prev.index() == 0) {
 			$(".prev").addClass('hide-nav');
 		}
