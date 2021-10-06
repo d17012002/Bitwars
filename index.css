@@ -28,8 +28,8 @@ button {
 
 .img-about {
 	position: relative;
-	left: 20px;
-	top: 30px;
+	left: 15px;
+	top: 80px;
 }
 
 .img-perks {
@@ -65,7 +65,7 @@ body {
 	position: relative;
 	width: 100%;
 	height: 110vh;
-	max-height: 70vh;
+	max-height: 80vh;
 	background: transparent;
 	overflow: hidden;
 }
@@ -75,7 +75,7 @@ body {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 70vh;
+	height: 80vh;
 	list-style: none;
 	-webkit-transform: translateX(100%);
 	-moz-transform: translateX(100%);
